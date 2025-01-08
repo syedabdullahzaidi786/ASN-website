@@ -6,7 +6,9 @@
     <title>Asaan Sunnat Nikah - Modern Islamic Marriage Services</title>
     <link rel="icon" href="logo.webp" type="image/webp">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
     <style>
+    
         /* Modern CSS Reset & Variables */
         :root {
             --primary: #006064;
@@ -427,7 +429,16 @@
             </div>
         </nav>
     </header>
-
+ <!-- Popup Message -->
+ <div id="popup" class="popup">
+    <div class="popup-card">
+      <!-- Logo -->
+      <img src="image.png" alt="Asaan Sunnat Nikah Logo" class="popup-logo">
+      <h2>Welcome to Asaan Sunnat Nikah</h2>
+      <p class="popup-message">We are excited to have you on board! Let's make your experience memorable and smooth.</p>
+      <button onclick="closePopup()" class="close-btn">Close</button>
+    </div>
+  </div>
     <section class="hero">
         <div class="hero-content fade-in">
             <h1>Your Journey to a Blessed Union Begins Here</h1>
@@ -519,5 +530,6 @@
         </div>
         <p style="text-align: center; margin-top: 3rem; opacity: 0.8;">&copy; 2025 Asaan Sunnat Nikah. All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
